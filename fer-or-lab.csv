@@ -1,0 +1,20 @@
+name,address,city,country_tag,latitude,longitude,number_of_platforms,number_of_tracks,length,establishing_date,opening_time,closing_time,available,train_capacity,owner,owner_contact,train_type,number_of_wagons,passenger_capacity,latitude,longitude
+Zagreb Glavni Kolodvor,Trg Kralja Tomislava 12,Zagreb,HR,45.80466791,15.97880051,7,9,800,1892-08-18,00:00:00,23:59:00,t,15,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,passenger,4,350,45.80448809,15.98019608
+Zagreb Glavni Kolodvor,Trg Kralja Tomislava 12,Zagreb,HR,45.80466791,15.97880051,7,9,800,1892-08-18,00:00:00,23:59:00,t,15,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,freight,30,,45.80432383,15.98439567
+Zagreb Glavni Kolodvor,Trg Kralja Tomislava 12,Zagreb,HR,45.80466791,15.97880051,7,9,800,1892-08-18,00:00:00,23:59:00,t,15,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,passenger,4,400,45.80480269,15.98491478
+Željeznički kolodvor Daruvar,Kolodvorska ul. 7,Daruvar,HR,45.58888085,17.22636991,2,4,250,,05:30:00,21:00:00,f,4,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,,,,,
+Željeznički kolodvor Karlovac Centar,Prilaz Većeslava Holjevca b.b.,Karlovac,HR,45.48810832,15.54976276,1,2,200,,,,t,2,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,freight,35,,45.48895162,15.54846528
+Željeznički kolodvor Karlovac Centar,Prilaz Većeslava Holjevca b.b.,Karlovac,HR,45.48810832,15.54976276,1,2,200,,,,t,2,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,passenger,4,400,45.48834539,15.54976251
+Željeznički kolodvor Karlovac,Vilima Reinera 3,Karlovac,HR,45.50023672,15.54538848,3,7,700,1865-06-01,04:00:00,23:30:00,t,8,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,,,,,
+Željeznički kolodvor Rijeka,Trg kralja Tomislava 1,Rijeka,HR,45.33022022,14.43041476,3,8,300,,04:00:00,23:30:00,t,9,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,,,,,
+Željeznički kolodvor Zadar,Ulica Ante Starčevića 3,Zadar,HR,44.10628975,15.24237409,2,5,150,1967-08-18,,,f,5,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,,,,,
+Željeznička stanica Pčelić,Pčelić 60,Pčelić,HR,45.78009825,17.52562698,1,3,50,,,,f,3,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,,,,,
+Željeznička stanica Banova Jaruga,Stjepana Radića 16,Banova Jaruga,HR,45.44589262,16.87642633,2,4,250,,05:30:00,21:00:00,t,4,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,passenger,4,350,45.44455923,16.87774079
+Željeznička stanica Banova Jaruga,Stjepana Radića 16,Banova Jaruga,HR,45.44589262,16.87642633,2,4,250,,05:30:00,21:00:00,t,4,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,passenger,4,400,45.44652126,16.87493834
+Željeznička stanica Sirač,Kolodvorska ulica 7,Sirač,HR,45.52991504,17.24096959,1,3,100,,,,f,3,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,,,,,
+Željeznički kolodvor Dugo Selo,Ul. Matije Gupca 4,Dugo Selo,HR,45.80151386,16.23457049,3,6,300,,04:00:00,23:59:00,t,7,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,freight,35,,45.80153053,16.23873486
+Željeznički kolodvor Dugo Selo,Ul. Matije Gupca 4,Dugo Selo,HR,45.80151386,16.23457049,3,6,300,,04:00:00,23:59:00,t,7,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,passenger,4,400,45.80106229,16.23117332
+Željeznički kolodvor Split,Obala kneza Domagoja 9,Split,HR,43.50474026,16.44296388,4,6,400,1877-01-06,04:00:00,23:30:00,t,8,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,freight,10,,43.50597057,16.44249374
+Željeznički kolodvor Split,Obala kneza Domagoja 9,Split,HR,43.50474026,16.44296388,4,6,400,1877-01-06,04:00:00,23:30:00,t,8,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,passenger,4,400,43.50341876,16.44391693
+Željeznički kolodvor Split,Obala kneza Domagoja 9,Split,HR,43.50474026,16.44296388,4,6,400,1877-01-06,04:00:00,23:30:00,t,8,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,passenger,4,350,43.50411516,16.443471
+Željeznički kolodvor Sisak,Trg Republike 1,Sisak,HR,45.49201386,16.37334414,2,6,300,1862-10-01,04:00:00,22:00:00,t,6,HŽ Infrastruktura d.o.o.,uprava-hzi@hzinfra.hr,,,,,
