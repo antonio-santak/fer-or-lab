@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/antonio-santak/fer-or-lab/schema.json",
+  "title": "fer-or-lab",
+  "author": "Antonio Šantak",
+  "description": "FER 2026./2027. - Otvoreno računarstvo - Laboratorijske vježbe",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "place": {
+        "type": "object",
+        "properties": {
+          "address": {
+            "type": "string"
+          },
+          "city": {
+            "type": "string"
+          },
+          "country_tag": {
+            "type": "string"
+          },
+          "latitude": {
+            "type": "number"
+          },
+          "longitude": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "address",
+          "city",
+          "country_tag",
+          "latitude",
+          "longitude"
+        ]
+      },
+      "trains": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "train_type": {
+              "type": "string"
+            },
+            "number_of_wagons": {
+              "type": "number"
+            },
+            "passenger_capacity": {
+              "type": "number"
+            },
+            "latitude": {
+              "type": "number"
+            },
+            "longitude": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "train_type",
+            "number_of_wagons",
+            "latitude",
+            "longitude"
+          ]
+        }
+      },
+      "number_of_platforms": {
+        "type": "number"
+      },
+      "number_of_tracks": {
+        "type": "number"
+      },
+      "length": {
+        "type": "number"
+      },
+      "establishing_date": {
+        "type": "string"
+      },
+      "opening_time": {
+        "type": "string"
+      },
+      "closing_time": {
+        "type": "string"
+      },
+      "available": {
+        "type": "boolean"
+      },
+      "train_capacity": {
+        "type": "number"
+      },
+      "owner": {
+        "type": "string"
+      },
+      "owner_contact": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "name",
+      "place",
+      "trains",
+      "number_of_platforms",
+      "number_of_tracks",
+      "length",
+      "available",
+      "train_capacity",
+      "owner",
+      "owner_contact"
+    ]
+  }
+}

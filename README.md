@@ -14,7 +14,7 @@ FER 2026./2027. - Otvoreno računarstvo - Laboratorijske vježbe
 ---
 
 ## Verzija
-`v1.0`
+`v2.0`
 
 ---
 
@@ -29,6 +29,24 @@ Modeliraju se stanice i kolodvori (*station*) koje se nalaze na određenim lokac
 Vlakovi koji nisu na stanicama nisu u interesu, samo se motre vlakovi koji se zadržavaju na stanicama.
 
 Glavni predmet ovih podataka su stanice. Njih nadopunjuju podaci kao što su njihova mjesta i pripadajući vlakovi.
+
+---
+
+## Priprema okruženja i pokretanje aplikacije
+
+U datoteku *./server/.env* potrebno je unijeti vjerodajnice poslužitelja baze podataka (*connection string*).
+Polja koja je potrebno nadopuniti:
+```
+DB_NAME=******
+DB_HOST=******
+DB_PORT=******
+DB_USER=******
+DB_PASSWORD=******
+```
+
+Nakon uspješne pripreme varijabli okruženja, potrebno je instalirati potrebne biblioteke NodeJS-a naredbom `npm install` u naredbenom retku u direktoriju *./server*. Stvoriti će se *node_modules* direktorij.
+Nakon toga potrebno je pokrenuti poslužitelj naredbom `node .\src\app.js`.
+Aplikacija je spremna te joj je moguće pristupiti unutar datoteka `index.html` ili `datatable.html`.
 
 ---
 

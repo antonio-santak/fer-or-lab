@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fer-or-lab</title>
+    <meta name="description" content="FER 2026./2027. - Otvoreno računarstvo - Laboratorijske vježbe">
+    <meta name="author" content="Antonio Šantak">
+    <link rel="stylesheet" href="./client/css/style.css">
+</head>
+<body>
+    <a href="./index.html">Početna</a>
+
+    <br/>
+    <br/>
+
+    <form action="/" method="get" id="datatable_form">
+        <label for="search_query">Polje za pretragu</label>
+        <input type="text" name="search_query" id="search_query" placeholder="Unesite vrijednost">
+        <label for="search_attribute">Odaberite polje za pretragu</label>
+        <select name="search_attribute" id="search_atribute">
+            <option value="default" selected>sva polja (wildcard)</option>
+            <option value="s_name">ime stanice</option>
+            <option value="p_address">adresa</option>
+            <option value="p_city">grad</option>
+            <option value="p_country_tag">oznaka države</option>
+            <option value="p_latitude">geog. širina mjesta</option>
+            <option value="p_longitude">geog. dužina mjesta</option>
+            <option value="s_number_of_platforms">broj perona</option>
+            <option value="s_number_of_tracks">broj kolosijeka</option>
+            <option value="s_length">duljina stanice</option>
+            <option value="s_establishing_date">dan osnivanja</option>
+            <option value="s_opening_time">vrijeme otvaranja</option>
+            <option value="s_closing_time">vrijeme zatvaranja</option>
+            <option value="s_available">dostupnost</option>
+            <option value="s_train_capacity">kapacitet vlakova</option>
+            <option value="s_owner">vlasnik</option>
+            <option value="s_owner_contact">kontakt vlasnika</option>
+            <option value="t_train_type">vrsta vlaka</option>
+            <option value="t_number_of_wagons">broj vagona</option>
+            <option value="t_passenger_capacity">kapacitet putnika</option>
+            <option value="t_latitude">geog. širina vlaka</option>
+            <option value="t_longitude">geog. dužina vlaka</option>
+        </select>
+        <input type="submit" value="Pretraži">
+    </form>
+
+    <br/>
+
+    <table class="datatable">
+        <thead>
+            <tr>
+                <td class="border-right" style="background-color: #98b0ff;">Stanica (station)</td>
+                <td class="border-right" colspan="5" style="background-color: #ff6fa9;">Mjesto (place)</td>
+                <td class="border-right" colspan="10" style="background-color: #98b0ff;">Stanica (station)</td>
+                <td colspan="5" style="background-color: #0aff91;">Vlak (train)</td>
+            </tr>
+            <tr>
+                <th class="border-right">Ime stanice</th>
+                <th>Adresa</th>
+                <th>Grad</th>
+                <th>Oznaka države</th>
+                <th>Geog. širina mjesta</th>
+                <th class="border-right">Geog. dužina mjesta</th>
+                <th>Broj perona</th>
+                <th>Broj kolosijeka</th>
+                <th>Duljina (m)</th>
+                <th>Osnivanje</th>
+                <th>Vrijeme otvaranja</th>
+                <th>Vrijeme zatvaranja</th>
+                <th>Dostupačnost</th>
+                <th>Kapacitet vlakova</th>
+                <th>Vlasnik</th>
+                <th class="border-right">Kontakt vlasnika</th>
+                <th>Vrsta vlaka</th>
+                <th>Broj vagona</th>
+                <th>Kapacitet putnika</th>
+                <th>Geog. širina vlaka</th>
+                <th>Geog. dužina vlaka</th>
+            </tr>
+        </thead>
+        <tbody id="table_body"></tbody>
+    </table>
+
+    <br/>
+
+    <button id="download_csv">Spremi kao CSV datoteku</button>
+    <button id="download_json">Spremi kao JSON datoteku</button>
+
+    <script src="./client/script/script.js"></script>
+</body>
+</html>
